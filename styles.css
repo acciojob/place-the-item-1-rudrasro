@@ -1,2 +1,10 @@
-
-/* Your CSS Code here. */
+#stretch {
+    width: 320px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
